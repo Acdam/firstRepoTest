@@ -8,9 +8,6 @@ esxi-host2.cisco.com
 [cluster-2]
 esxi-host3.cisco.com
 
-[storage]
-storage1.cisco.com
-
 [esxi:vars]
 vcenter_hostname=vcenter-1.cisco.com
 vcenter_username=vcenter_user_name
