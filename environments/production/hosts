@@ -9,7 +9,7 @@ esxi-host2.cisco.com
 esxi-host3.cisco.com
 
 [storage]
-storage[1:2].cisco.com
+storage1.cisco.com
 
 [esxi:vars]
 vcenter_hostname=vcenter-1.cisco.com
