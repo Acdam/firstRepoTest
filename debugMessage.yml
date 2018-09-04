@@ -7,7 +7,7 @@
   tasks:
   - name: Print variable names
     debug:
-      msg: "How are you Kanul {{ ansible_host }}"
+      msg: "How are you Kanul Chugh {{ ansible_host }}"
 
   - name: Print Group variable names
     debug:
