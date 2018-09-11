@@ -1,5 +1,5 @@
 [esxi]
-esxi-host[1].cisco.com
+esxi-host1.cisco.com
 
 [cluster-1]
 esxi-host1.cisco.com
