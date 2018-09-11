@@ -1,12 +1,11 @@
 [esxi]
-esxi-host[1:3].cisco.com
+esxi-host[1].cisco.com
 
 [cluster-1]
 esxi-host1.cisco.com
-esxi-host2.cisco.com
 
-[cluster-2]
-esxi-host3.cisco.com
+[ocp]
+173.39.230.70
 
 [esxi:vars]
 vcenter_hostname=vcenter-1.cisco.com
