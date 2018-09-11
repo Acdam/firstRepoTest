@@ -1,0 +1,8 @@
+---
+- hosts: ocp
+  tasks:
+  - name: kernel version
+    command: uname -a
+    register: result
+
+  - debug: "msg={{result}}"
